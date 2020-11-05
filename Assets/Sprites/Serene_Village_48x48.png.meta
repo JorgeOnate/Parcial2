@@ -1,7 +1,301 @@
 fileFormatVersion: 2
 guid: b38e7d15f32aae94fb389e10ba98adc5
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -2382709242492387935
+    second: Post1
+  - first:
+      213: -6376035931022185643
+    second: Rock1
+  - first:
+      213: 7762569421451459848
+    second: Rock2
+  - first:
+      213: 9054582525806538006
+    second: Tree1
+  - first:
+      213: -2648357543111384367
+    second: BunchTree
+  - first:
+      213: 1577077323952215340
+    second: tree2
+  - first:
+      213: 4762636006977990047
+    second: Tree3
+  - first:
+      213: 8508529492263126245
+    second: Tree4
+  - first:
+      213: -1444824996411952619
+    second: House1
+  - first:
+      213: -2960597450563770581
+    second: House2
+  - first:
+      213: -5949984651976494940
+    second: House3
+  - first:
+      213: -17612484394890572
+    second: Post2
+  - first:
+      213: 8943971646117680408
+    second: fence1
+  - first:
+      213: 5914653840535594613
+    second: Serene_Village_48x48_13
+  - first:
+      213: -7998788672266290738
+    second: Serene_Village_48x48_14
+  - first:
+      213: -4756468926196079642
+    second: Serene_Village_48x48_15
+  - first:
+      213: 5664256717250520965
+    second: Serene_Village_48x48_16
+  - first:
+      213: -7224525775724860439
+    second: Serene_Village_48x48_17
+  - first:
+      213: -1010361250174614450
+    second: Serene_Village_48x48_18
+  - first:
+      213: 7345842490210218435
+    second: Serene_Village_48x48_19
+  - first:
+      213: 3773111605871866642
+    second: Serene_Village_48x48_20
+  - first:
+      213: -5085006250105318357
+    second: Serene_Village_48x48_21
+  - first:
+      213: -4882280597347461227
+    second: Serene_Village_48x48_22
+  - first:
+      213: -4281111199726715942
+    second: Serene_Village_48x48_23
+  - first:
+      213: -2998544732621245103
+    second: Serene_Village_48x48_24
+  - first:
+      213: -4538355144011212482
+    second: Serene_Village_48x48_25
+  - first:
+      213: -1818775288251385366
+    second: Serene_Village_48x48_26
+  - first:
+      213: 4584228664075436371
+    second: Serene_Village_48x48_27
+  - first:
+      213: 7479974097615989836
+    second: Serene_Village_48x48_28
+  - first:
+      213: 6037528945198169076
+    second: Serene_Village_48x48_29
+  - first:
+      213: 2391612022384147381
+    second: Serene_Village_48x48_30
+  - first:
+      213: 7807346334442230813
+    second: Serene_Village_48x48_31
+  - first:
+      213: -1816325777314766190
+    second: Serene_Village_48x48_32
+  - first:
+      213: 1697274919981216565
+    second: Serene_Village_48x48_33
+  - first:
+      213: -7824638576298213931
+    second: Serene_Village_48x48_34
+  - first:
+      213: -6353024680239036145
+    second: Serene_Village_48x48_35
+  - first:
+      213: -7161368756128253665
+    second: Serene_Village_48x48_36
+  - first:
+      213: 7930161712935623338
+    second: Serene_Village_48x48_37
+  - first:
+      213: -8479823286728711314
+    second: Serene_Village_48x48_38
+  - first:
+      213: 4005347429676799508
+    second: Serene_Village_48x48_39
+  - first:
+      213: -4531308612736785550
+    second: Serene_Village_48x48_40
+  - first:
+      213: 4997026491767211722
+    second: Serene_Village_48x48_41
+  - first:
+      213: -633769025451239617
+    second: Serene_Village_48x48_42
+  - first:
+      213: -6705912149973473799
+    second: Serene_Village_48x48_43
+  - first:
+      213: -5480705857228190104
+    second: Serene_Village_48x48_44
+  - first:
+      213: -6417517200853998652
+    second: Serene_Village_48x48_45
+  - first:
+      213: 1231727453126201637
+    second: Serene_Village_48x48_46
+  - first:
+      213: 4170639223002682665
+    second: Serene_Village_48x48_47
+  - first:
+      213: 6855011925504484416
+    second: Serene_Village_48x48_48
+  - first:
+      213: -6611258742323235999
+    second: Serene_Village_48x48_49
+  - first:
+      213: 2668739429718610289
+    second: Serene_Village_48x48_50
+  - first:
+      213: -132655478894504951
+    second: Serene_Village_48x48_51
+  - first:
+      213: -467113600346337568
+    second: Serene_Village_48x48_52
+  - first:
+      213: 3976823226994704110
+    second: Serene_Village_48x48_53
+  - first:
+      213: 2945233505247921750
+    second: Serene_Village_48x48_54
+  - first:
+      213: 8362471063014690959
+    second: Serene_Village_48x48_55
+  - first:
+      213: 6627381080449920789
+    second: Serene_Village_48x48_56
+  - first:
+      213: 7542849760874150644
+    second: Serene_Village_48x48_57
+  - first:
+      213: -1630860347864818854
+    second: Serene_Village_48x48_58
+  - first:
+      213: -3333884214749765299
+    second: Serene_Village_48x48_59
+  - first:
+      213: 1730816447201936821
+    second: Serene_Village_48x48_60
+  - first:
+      213: 5909598329960254471
+    second: Serene_Village_48x48_61
+  - first:
+      213: -8694049368661130297
+    second: Serene_Village_48x48_62
+  - first:
+      213: -767731297835169706
+    second: Serene_Village_48x48_63
+  - first:
+      213: 8135906919518728129
+    second: Serene_Village_48x48_64
+  - first:
+      213: -7796240840571404031
+    second: Serene_Village_48x48_65
+  - first:
+      213: 1623676468265789500
+    second: Serene_Village_48x48_66
+  - first:
+      213: 6046782118391974885
+    second: Serene_Village_48x48_67
+  - first:
+      213: -7809105515866605485
+    second: Serene_Village_48x48_68
+  - first:
+      213: 4827740396352415524
+    second: Serene_Village_48x48_69
+  - first:
+      213: -215707189021595200
+    second: Serene_Village_48x48_70
+  - first:
+      213: -3646050366318889343
+    second: Serene_Village_48x48_71
+  - first:
+      213: -2956153864244593374
+    second: Serene_Village_48x48_72
+  - first:
+      213: -6027203915902721971
+    second: Serene_Village_48x48_73
+  - first:
+      213: -8868684391618460970
+    second: Serene_Village_48x48_74
+  - first:
+      213: 8815889824416917013
+    second: Serene_Village_48x48_75
+  - first:
+      213: 1122535513195721464
+    second: Serene_Village_48x48_76
+  - first:
+      213: -7548281137302489600
+    second: Serene_Village_48x48_77
+  - first:
+      213: 5459204792536984830
+    second: Serene_Village_48x48_78
+  - first:
+      213: 1540161015106858474
+    second: Serene_Village_48x48_79
+  - first:
+      213: 5946930225152522989
+    second: Serene_Village_48x48_80
+  - first:
+      213: -8327704451730728200
+    second: Serene_Village_48x48_81
+  - first:
+      213: 3401520203299899290
+    second: Serene_Village_48x48_82
+  - first:
+      213: 6132818534063428969
+    second: Serene_Village_48x48_83
+  - first:
+      213: -1007694178863718488
+    second: Serene_Village_48x48_84
+  - first:
+      213: -8332773528375960276
+    second: Serene_Village_48x48_85
+  - first:
+      213: -45888194797074444
+    second: Serene_Village_48x48_86
+  - first:
+      213: -921566408967244295
+    second: Serene_Village_48x48_87
+  - first:
+      213: -353911130181195118
+    second: Serene_Village_48x48_88
+  - first:
+      213: 1016234492019885467
+    second: Serene_Village_48x48_89
+  - first:
+      213: -1101764940874487295
+    second: Serene_Village_48x48_90
+  - first:
+      213: -1176287040047849808
+    second: Serene_Village_48x48_91
+  - first:
+      213: 4120452170245767004
+    second: Serene_Village_48x48_92
+  - first:
+      213: 8593199220020292010
+    second: Serene_Village_48x48_93
+  - first:
+      213: -6154062083332743623
+    second: Serene_Village_48x48_94
+  - first:
+      213: -2522925133683846487
+    second: Serene_Village_48x48_95
+  - first:
+      213: -6013676654619393222
+    second: Serene_Village_48x48_96
+  - first:
+      213: -7355285447877961579
+    second: Serene_Village_48x48_97
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +335,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -73,9 +367,330 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Post1
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1437
+        width: 81
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ad733e619aeeeed0800000000000000
+      internalID: -2382709242492387935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rock1
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 1285
+        width: 80
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55bab483a15c387a0800000000000000
+      internalID: -6376035931022185643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rock2
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 1193
+        width: 79
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80d7cedc2cf2abb60800000000000000
+      internalID: 7762569421451459848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree1
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 1438
+        width: 96
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61d682085d658ad70800000000000000
+      internalID: 9054582525806538006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BunchTree
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 1293
+        width: 240
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d2ae9c98d42f3bd0800000000000000
+      internalID: -2648357543111384367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree2
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 1438
+        width: 96
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c25de7d6877e2e510800000000000000
+      internalID: 1577077323952215340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree3
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 1438
+        width: 97
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9d686ef638481240800000000000000
+      internalID: 4762636006977990047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree4
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 1438
+        width: 96
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e4474b3e7e541670800000000000000
+      internalID: 8508529492263126245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House1
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 778
+        width: 143
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 512b24e1253f2fbe0800000000000000
+      internalID: -1444824996411952619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House2
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 973
+        width: 240
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b27283cfd48d9e6d0800000000000000
+      internalID: -2960597450563770581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House3
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 779
+        width: 209
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a03aefbb786d6da0800000000000000
+      internalID: -5949984651976494940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Post2
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1486
+        width: 47
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bac70ce98d61cff0800000000000000
+      internalID: -17612484394890572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence1
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 1440
+        width: 44
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 815920033de5f1c70800000000000000
+      internalID: 8943971646117680408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
