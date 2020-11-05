@@ -4,4 +4,4 @@ Parcial final de la clase desarrollo de videojuegos segundo semestre de 2020 - U
 
 El proyecto corresponde también al game jam con el tema "Quédate en casa"
 
-Hecho en Unity versión: 2020.1.9f1
+Hecho en Unity versión: 2020.1.12f1
