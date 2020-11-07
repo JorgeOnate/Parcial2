@@ -8,6 +8,8 @@ TagManager:
   - House2
   - House3
   - Wall
+  - SideWall
+  - Target
   layers:
   - Default
   - TransparentFX

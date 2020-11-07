@@ -1,6 +1,8 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Object = UnityEngine.Object;
 
 public class NPCMovement : MonoBehaviour
 {
@@ -9,8 +11,10 @@ public class NPCMovement : MonoBehaviour
 
     private Rigidbody2D _rigidbody2D;
     public Vector2 startPosicion;
+    
+    public Transform target;
+    private bool keepMovingTowardsTarget = true;
 
-     
     
     
     // Start is called before the first frame update
@@ -27,23 +31,45 @@ public class NPCMovement : MonoBehaviour
         _rigidbody2D.velocity = -direction * speed;
     }
 
+    private void Update()
+    {
+        if (keepMovingTowardsTarget == false)
+        {
+            float step = speed * 6 * Time.deltaTime;
+            transform.position = Vector3.MoveTowards(transform.position, target.position, step);
+        }
+    }
+
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Wall"))
         {
-            direction.y = -direction.y;
-            direction.x = direction.x;
-
+            direction.y = -direction.y; 
         }
-        
+        else if (collision.gameObject.CompareTag("SideWall"))
+        {
+            direction.x = -direction.x;
+        }
+        else if (collision.gameObject.CompareTag("Player"))
+        {
+            keepMovingTowardsTarget = false;
+
+            
+            Destroy(gameObject,2.0f);
+
+            
+            //transform.position = Vector3.MoveTowards(transform.position,target.transform.position,10f*Time.deltaTime);
+        }
     }
 
+    
     public void Reset()
     {
+        keepMovingTowardsTarget = true;
         _rigidbody2D.velocity = Vector2.zero;
         transform.position = startPosicion;
         direction = Vector2.one.normalized;
-        speed = 4;
-
+        speed += 0.05f;
+        
     }
 }
