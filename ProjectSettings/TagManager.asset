@@ -10,6 +10,8 @@ TagManager:
   - Wall
   - SideWall
   - Target
+  - Enemy
+  - Bullet
   layers:
   - Default
   - TransparentFX

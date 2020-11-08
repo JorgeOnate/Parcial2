@@ -1,10 +1,12 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    [SerializeField] private float velocity = 1f;
+    //[SerializeField] private float velocity = 5.0f;
+    public float moveSpeed = 5f;
     private Rigidbody2D _rigidbody2D;
 
     [SerializeField] public KeyCode LeftControl;
@@ -13,6 +15,10 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] public KeyCode DownControl;
     public bool facingRight;
     public float horizontalValue;
+    private GameObject player;
+    public Camera cam;
+
+    private Vector2 mousePos;
     
     void Start()
     {
@@ -21,35 +27,45 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
+        Walk();
         Flip();
-        if (Input.GetKey(LeftControl))
-        {
-            transform.Translate(x:-velocity,0f,0f);
-        }
-        //Move DOWN
-        else if (Input.GetKey(RightControl))
-        {
-            transform.Translate(velocity,y:0f,0f);
-        }
-        if (Input.GetKey(UpControl))
-        {
-            transform.Translate(x:0f,y:velocity,0f);
-        }
-        //Move DOWN
-        else if (Input.GetKey(DownControl))
-        {
-            transform.Translate(x:0f,y:-velocity,0f);
-        }
-        
+
+        mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
+
     }
+
+    private void Walk()
+    {
+        Vector3 movement = new Vector3(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"), 0f);
+        transform.position += movement * Time.deltaTime * moveSpeed;
+        horizontalValue = Input.GetAxis("Horizontal") * moveSpeed * Time.deltaTime;
+
+    }
+
     void Flip()
     {
-        if ((horizontalValue > 0 && facingRight) || (horizontalValue < 0 && !facingRight))
+        if ((horizontalValue < 0 && facingRight) || (horizontalValue > 0 && !facingRight))
         {
             facingRight = !facingRight;
-            Vector3 theScale = transform.localScale;
-            theScale.x *= -1;
-            transform.localScale = theScale;
+            
+            transform.Rotate(0f,180f,0);
         }
     }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Enemy"))
+        {
+            Health.health--;
+        }
+    }
+
+    private void FixedUpdate()
+    {
+        Vector2 lookDir = mousePos - _rigidbody2D.position;
+        float angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg ;
+        //_rigidbody2D.rotation = angle;
+    }
 }
+    
+    

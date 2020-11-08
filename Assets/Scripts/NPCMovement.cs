@@ -60,6 +60,11 @@ public class NPCMovement : MonoBehaviour
             
             //transform.position = Vector3.MoveTowards(transform.position,target.transform.position,10f*Time.deltaTime);
         }
+        else if (collision.gameObject.CompareTag("Enemy"))
+        {
+            Destroy(gameObject);
+            Health.health--;
+        }
     }
 
     

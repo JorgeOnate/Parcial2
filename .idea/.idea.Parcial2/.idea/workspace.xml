@@ -11,16 +11,26 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Bullet.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/NPCMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemySpawner.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Shooting.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Toroidal.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/NPCMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/VillagerSpawner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Shoot.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Shooting.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Bullet.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Score.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/NPCMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EnemyFollower.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EnemySpawner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MenuManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Health.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SoundScript.cs" />
       </list>
     </option>
   </component>
@@ -64,7 +74,8 @@
       <option name="presentableId" value="Default" />
       <updated>1604755559812</updated>
       <workItem from="1604755586736" duration="3976000" />
-      <workItem from="1604763935364" duration="9904000" />
+      <workItem from="1604763935364" duration="18975000" />
+      <workItem from="1604789413592" duration="7487000" />
     </task>
     <servers />
   </component>
@@ -81,5 +92,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1034" y="242" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1604772941436" />
+    <state x="1041" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1604781187828">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1041" y="229" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1604781187828" />
   </component>
 </project>

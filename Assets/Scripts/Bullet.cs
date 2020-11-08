@@ -1,13 +1,12 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
-    public float speed;
-
-    private void Update()
+    void OnCollisionEnter2D(Collision2D collision)
     {
-        transform.position += transform.up * speed * Time.deltaTime;
+        Destroy(gameObject);
     }
 }
